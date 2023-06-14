@@ -67,10 +67,10 @@ ENUM_FUNC_MAP = {
 
 VERIFIED_USER_WAITLIST = {}
 
-MIKU_IMG = "https://telegra.ph/file/be3430b7151fd64706679.mp4"
-MIKU = "https://telegra.ph/file/25442c7b0b61372df7ce9.jpg"
-MIKU_VID = "https://telegra.ph/file/e997d98975496adc09fe7.mp4"
-WAIFUS_IMG = "https://telegra.ph/file/a6c91884e06744ad48fb7.jpg"
+MIKU_IMG = "https://telegra.ph/file/1cce59a80934bd8c997c5.jpg"
+MIKU = "https://telegra.ph/file/8b246e5bba036943c1bb2.jpg"
+MIKU_VID = "https://telegra.ph/file/0ddb145fc189a3090ad2e.jpg"
+WAIFUS_IMG = "https://telegra.ph/file/c7feb4bc0c020bc23c622.jpg"
 
 
 # do not async
@@ -200,13 +200,13 @@ def new_member(update: Update, context: CallbackContext):
                     reply_to_message_id=reply)
                 welcome_log = (f"{html.escape(chat.title)}\n"
                                f"#USER_JOINED\n"
-                               f"Bot Owner just joined the chat")
+                               f"Flame just joined the chat")
                 continue
 
             # Welcome Devs
             elif new_mem.id in DEV_USERS:
                 update.effective_message.reply_text(
-                    "Whoa! S Rank Hunter just joined!",
+                    "Whoa! a Hashira just joined!",
                     reply_to_message_id=reply,
                 )
                 continue
@@ -214,7 +214,7 @@ def new_member(update: Update, context: CallbackContext):
             # Welcome Sudos
             elif new_mem.id in DRAGONS:
                 update.effective_message.reply_photo(
-                MIKU, caption= "Huh! A Rank Hunter just joined! Stay Alert!",
+                MIKU, caption= "Huh! A Slayer Elite just joined! Stay Alert!",
                     reply_to_message_id=reply,
                 )
                 continue
@@ -222,7 +222,7 @@ def new_member(update: Update, context: CallbackContext):
             # Welcome Support
             elif new_mem.id in DEMONS:
                 update.effective_message.reply_photo(
-                MIKU, caption= "Huh! Someone with a B Rank Hunter level just joined!",
+                MIKU, caption= "Huh! Someone with a upper moo  level just joined!",
                     reply_to_message_id=reply,
                 )
                 continue
@@ -257,10 +257,10 @@ def new_member(update: Update, context: CallbackContext):
                   [                  
                        InlineKeyboardButton(
                              text="Support🚑",
-                             url=f"https://t.me/MikuXSupport"),
+                             url=f"https://t.me/SuzumeSupport"),
                        InlineKeyboardButton(
                              text="Updates🛰️",
-                             url="https://t.me/MikuXUpdates")
+                             url="https://t.me/PrimesDivision")
                      ],
                      [                  
                        InlineKeyboardButton(

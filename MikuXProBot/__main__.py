@@ -87,7 +87,7 @@ buttons = [
                    [                  
                        InlineKeyboardButton(
                              text="🌟 Help",
-                             callback_data="help_back"),
+                             url="https://telegram.dog/shiinamahirurobot?start=help"),
                         InlineKeyboardButton(
                              text="🎀 About Me",
                              callback_data="miku_"),
@@ -121,7 +121,7 @@ ABOUT3 = """Hello [{}](tg://user?id={}), My name is *{}*. A Powerful Telegram Gr
             \n\n*If you have any Question, You can join Support Chat. My Developer Team will Answer. Check Support Button Below*"""
 
 HELP_STRINGS = """
-Hey [{}](tg://user?id={}) your *Shiina* is here! 
+Hey [{}](tg://user?id={}) your Shiina is here! 
 I Help Admins To Manage Their Groups! 
 Main commands available :
  ‣ /help: PM's you this message.
@@ -256,10 +256,10 @@ def start(update: Update, context: CallbackContext):
                 xx = HELPABLE[mod].get_help(chat)
                 if isinstance(xx, list):
                     txt = str(xx[0])
-                    kb = [xx[1], [InlineKeyboardButton(text="Back", callback_data="help_back")]]
+                    kb = [xx[1], [InlineKeyboardButton(text="Back", url="https://telegram.dog/shiinamahirurobot?start=help")]]
                 else:
                     txt = str(xx)
-                    kb = [[InlineKeyboardButton(text="Back", callback_data="help_back")]]
+                    kb = [[InlineKeyboardButton(text="Back", url="https://telegram.dog/shiinamahirurobot?start=help")]]
                 send_help(
                     update.effective_chat.id,
                     txt,

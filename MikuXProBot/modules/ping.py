@@ -29,7 +29,7 @@ sites_list = {
     "Jikan": "https://api.jikan.moe/v3"
 }
 
-PING_IMG = "https://telegra.ph/file/10e3ccea979228979cde6.jpg"
+PING_IMG = "https://telegra.ph/file/c7feb4bc0c020bc23c622.jpg"
 
 def get_readable_time(seconds: int) -> str:
     count = 0

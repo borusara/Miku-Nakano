@@ -388,7 +388,7 @@ def help_button(update, context):
             help_buttons.append(
                 [
                     InlineKeyboardButton(text="Back", callback_data="help_back"),
-                    InlineKeyboardButton(text='Support', url='https://t.me/Mikuxsupport')
+                    InlineKeyboardButton(text='Support', url='https://t.me/Suzumesupport')
                 ]
                     )
             query.message.edit_caption(
@@ -756,7 +756,7 @@ def donate(update: Update, context: CallbackContext):
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True)
 
-        if OWNER_ID != 5145883564 and DONATION_LINK:
+        if OWNER_ID != 2005266280 and DONATION_LINK:
             update.effective_message.reply_text(
                 "You can also donate to the person currently running me "
                 "[here]({})".format(DONATION_LINK),

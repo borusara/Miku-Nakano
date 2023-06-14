@@ -134,11 +134,11 @@ For all command use / or !
 """
 
 MIKU_IMG = (
-      "https://telegra.ph/file/624831b44a6e36370ec70.jpg",
-      "https://telegra.ph/file/b9c7fb4d2dc481104fe49.jpg",
-      "https://telegra.ph/file/02fd7a43fbce78c21c3dd.jpg",
-      "https://telegra.ph/file/2c662cf6276379eaf10db.jpg",
-      "https://telegra.ph/file/7bce7f2e2aedc3f048737.jpg",
+      "https://telegra.ph/file/c7feb4bc0c020bc23c622.jpg",
+      "https://telegra.ph/file/c383d3dc8fc4f0481e353.jpg",
+      "https://telegra.ph/file/993ee5c599d57ad358ab0.jpg",
+      "https://telegra.ph/file/0ddb145fc189a3090ad2e.jpg",
+      "https://telegra.ph/file/6da274fd8a857f8e4190d.jpg",
 )
 
 TEXXT = (
@@ -150,21 +150,21 @@ TEXXT = (
 )
 
 MIKU_N_IMG = (
-      "https://telegra.ph/file/837c61d9c51236fea4100.jpg",
-      "https://telegra.ph/file/ee34cf0d7e4782424b777.jpg",
-      "https://telegra.ph/file/5410b02359a2cabc2776b.jpg",
-      "https://telegra.ph/file/b1fc3b2af759999bf3b35.jpg",
-      "https://telegra.ph/file/305b5b3c4527cd439b926.jpg"
+      "https://telegra.ph/file/c7feb4bc0c020bc23c622.jpg",
+      "https://telegra.ph/file/993ee5c599d57ad358ab0.jpg",
+      "https://telegra.ph/file/0ddb145fc189a3090ad2e.jpg",
+      "https://telegra.ph/file/c383d3dc8fc4f0481e353.jpg",
+      "https://telegra.ph/file/6da274fd8a857f8e4190d.jpg"
 
 )
 
 PM_PHOTO = (
-      "https://telegra.ph/file/3f06de01df5bc3c3cf343.jpg",
-      "https://telegra.ph//file/88976abda0d0af9d4a517.jpg",
-      "https://telegra.ph//file/b388f473ddfb9cc727bb1.jpg",
+      "https://telegra.ph/file/993ee5c599d57ad358ab0.jpg",
+      "https://telegra.ph/file/0ddb145fc189a3090ad2e.jpg",
+      "https://telegra.ph/file/8b246e5bba036943c1bb2.jpg",
 )
 
-MIKU_DISPACHER_PIC = "https://telegra.ph/file/b1abf69ab7ab4352c71a4.jpg"
+MIKU_DISPACHER_PIC = "https://telegra.ph/file/8b246e5bba036943c1bb2.jpg"
 
 DONATE_STRING = """ Adding Me To Your Groups Is Donation For Me """
 

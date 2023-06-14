@@ -48,7 +48,7 @@ from MikuXProBot.modules.helper_funcs.chat_status import sudo_plus
 from MikuXProBot.modules.helper_funcs.extraction import extract_user
 from MikuXProBot import telethn
 
-MIKU_IMG = "https://telegra.ph/file/e3be4035a03c7ecb6b24e.jpg"
+MIKU_IMG = "https://telegra.ph/file/0ddb145fc189a3090ad2e.jpg"
 
 def no_by_per(totalhp, percentage):
     """
@@ -240,10 +240,10 @@ def info(update: Update, context: CallbackContext):
     [
                         InlineKeyboardButton(
                              text="Health",
-                             url="https://t.me/MikuXproBot?start=health"),
+                             url="https://t.me/ShiinaMahiruRobot?start=health"),
                        InlineKeyboardButton(
                              text="Disasters",
-                             url="https://t.me/MikuXproBot?start=disasters"),
+                             url="https://t.me/shiinamahirurobot?start=disasters"),
                     ],
     ]
     user_id = extract_user(update.effective_message, args)
@@ -319,7 +319,7 @@ def info(update: Update, context: CallbackContext):
         text += "\n\nThe Disaster level of this person is 'God'."
         disaster_level_present = True
     elif user.id in DEV_USERS:
-        text += "\n\nThis user is member of 'Heros Association'."
+        text += "\n\nThis user is member of 'Hashira Association'."
         disaster_level_present = True
     elif user.id in DRAGONS:
         text += "\n\nThe Disaster level of this person is 'Dragon'."
@@ -468,15 +468,15 @@ def stats(update, context):
             status
             + "\n*Bot statistics*:\n"
             + "\n".join([mod.__stats__() for mod in STATS])
-            + f"\n\n[✦ Support](https://t.me/{SUPPORT_CHAT}) | [✦ Updates](https://t.me/MikuXUpdates)\n\n"
-            + "\n╘══「 by [卄σ∂αкα](https://t.me/h0daka) 」\n",
+            + f"\n\n[✦ Support](https://t.me/{SUPPORT_CHAT}) | [✦ Updates](https://t.me/PrimesDivision)\n\n"
+            + "\n╘══「 by [FLAME](https://t.me/Rickx_2005) 」\n",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                   [                  
                        InlineKeyboardButton(
                              text="Repo",
-                             url="github.com/H0daka/Miku-Nakano")
+                             url="github.com/rick40096/Lionell-Messi-Archive")
                      ] 
                 ]
             ),
@@ -489,9 +489,9 @@ def stats(update, context):
                         "\n*Bot statistics*:\n"
                         + "\n".join(mod.__stats__() for mod in STATS)
                     )
-                    + f"\n\n✦ [Support](https://t.me/{SUPPORT_CHAT}) | ✦ [Updates](https://t.me/MikuXUpdates)\n\n"
+                    + f"\n\n✦ [Support](https://t.me/{SUPPORT_CHAT}) | ✦ [Updates](https://t.me/PrimesDivision)\n\n"
                 )
-                + "╘══「 by [卄σ∂αкα](https://t.me/h0daka) 」\n"
+                + "╘══「 by [FLAME](https://t.me/Rickx_2005) 」\n"
             ),
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
@@ -499,7 +499,7 @@ def stats(update, context):
                   [                  
                        InlineKeyboardButton(
                              text="Repo",
-                             url="github.com/H0daka/Miku-Nakano")
+                             url="github.com/rick40096/Lionell-Messi-Archive")
                      ] 
                 ]
             ),

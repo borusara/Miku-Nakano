@@ -1,5 +1,5 @@
-from MikuxProBot import pbot as app
-from MikuxProBot import TOKEN as bot_token
+from MikuXProBot import pbot as app
+from MikuXProBot import TOKEN as bot_token
 from pyrogram import filters
 import requests
 from urllib.parse import quote_plus

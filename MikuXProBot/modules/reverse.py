@@ -1,4 +1,4 @@
-from MikuXProBot import pbot as app
+from MikuXProBot import pgram as app
 from MikuXProBot import TOKEN as bot_token
 from pyrogram import filters
 import requests

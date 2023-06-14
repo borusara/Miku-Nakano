@@ -265,7 +265,7 @@ def new_member(update: Update, context: CallbackContext):
                      [                  
                        InlineKeyboardButton(
                              text="Help 💡",
-                             callback_data="help_back"),
+                             url="https://telegram.dog/shiinamahirurobot?start=help"),
                 ] 
             ]
         ),

@@ -505,7 +505,7 @@ def miku_callback_data(update, context):
                 [
                  [
                     InlineKeyboardButton(text="🌐 Admin Tools", callback_data="about_"),
-                    InlineKeyboardButton(text="💻 System Stats", callback_data="stats_callback"),
+                    InlineKeyboardButton(text="💻 Updates", url="t.me/PrimesDivision"),
                  ],
                  [
                     InlineKeyboardButton(text="🎙️ support", callback_data="about_back"),
@@ -812,15 +812,15 @@ def main():
                 [
                   [                  
                        InlineKeyboardButton(
-                             text="Stats 🖥️",
-                             callback_data="stats_callback")
+                             text="Summon me",
+                             url="https://t.me/shiinamahirurobot?startgroup=new")
                      ] 
                 ]
             ),
         ) 
         except Unauthorized:
             LOGGER.warning(
-                "Miku can't able to send message to support_chat, go and check!")
+                "shiina can't able to send message to support_chat, go and check!")
         except BadRequest as e:
             LOGGER.warning(e.message)
 

@@ -62,7 +62,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 ────「 <b>{}</b> 」────
-<b>Hola!</b> <a href="tg://user?id={}"><b>{}</b></a> <b>,
+<b>Hi!</b> <a href="tg://user?id={}"><b>{}</b></a> <b>,
 I'm An Anime Themed Advance Group Management Bot.I have lots of handy features such as:
 ‣ Warning system
 ‣ Artificial intelligence
@@ -81,8 +81,8 @@ I'm An Anime Themed Advance Group Management Bot.I have lots of handy features s
 buttons = [
     [
                         InlineKeyboardButton(
-                             text="🎗️ Summon Me",
-                             url="https://t.me/MikuXProBot?startgroup=true"),
+                             text="❤️ Summon Me",
+                             url="https://t.me/ShiinaMahiruRobot?startgroup=true"),
                     ],
                    [                  
                        InlineKeyboardButton(
@@ -99,15 +99,15 @@ ABOUT1 = """
 """
 
 ABOUT2 = """
-*‣ Miku support chats*\nJoin My Support Group/Channel for see for report a problem on Miku.
+*‣ Shiina support chats*\nJoin My Support Group/Channel for see for report a problem on Shiina.
 """
 
 REPO_TXT = """
 *‣ Dev:*
-• [нσ∂αкα°δ](t.me/h0daka)
+• [FLAME](t.me/Rickx_2005)
 \n*‣ Note:* 
 • If You're Going To Fork This Repo Then Don't Forget To Give a Star 🌟
-• Report Any Bugs On Source Code At [Support](t.me/Mikuxsupport)
+• Report Any Bugs On Source Code At [Support](t.me/suzumexsupport)
 """
 
 ABOUT3 = """Hello [{}](tg://user?id={}), My name is *{}*. A Powerful Telegram Group Management Bot built to help you manage Group easily.
@@ -121,7 +121,7 @@ ABOUT3 = """Hello [{}](tg://user?id={}), My name is *{}*. A Powerful Telegram Gr
             \n\n*If you have any Question, You can join Support Chat. My Developer Team will Answer. Check Support Button Below*"""
 
 HELP_STRINGS = """
-Hey [{}](tg://user?id={}) your *Miku* is here! 
+Hey [{}](tg://user?id={}) your *Shiina* is here! 
 I Help Admins To Manage Their Groups! 
 Main commands available :
  ‣ /help: PM's you this message.
@@ -318,10 +318,10 @@ def start(update: Update, context: CallbackContext):
                   [                  
                        InlineKeyboardButton(
                              text="🚑 Support",
-                             url="t.me/Mikuxsupport"),
+                             url="t.me/Suzumesupport"),
                        InlineKeyboardButton(
                              text="📢 Updates",
-                             url="t.me/MikuXUpdates")
+                             url="t.me/PrimesDivision")
                      ] 
                 ]
             ),
@@ -454,8 +454,8 @@ def about_callback_data(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="📢 support", url="t.me/MikuxSupport"),
-                    InlineKeyboardButton(text="🎏 updates", url="t.me/MikuXUpdates"),
+                    InlineKeyboardButton(text="📢 support", url="t.me/SuzumeSupport"),
+                    InlineKeyboardButton(text="🎏 updates", url="t.me/PrimesDivision"),
                  ],
                  [
                     InlineKeyboardButton(text="❌ Back", callback_data="miku_")
@@ -476,8 +476,8 @@ def repo_callback_data(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="🧾 Source Code", url="https://github.com/h0daka/Miku-Nakano"),
-                    InlineKeyboardButton(text="📢 support", url="t.me/MikuxSupport"),
+                    InlineKeyboardButton(text="🧾 Source Code", url="https://github.com/rick40096/Lionell-Messi-Archive"),
+                    InlineKeyboardButton(text="📢 support", url="t.me/SuzumeSupport"),
                  ],
                  [
                     InlineKeyboardButton(text="❌ Back", callback_data="miku_")
@@ -568,7 +568,7 @@ def get_help(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                   [
-                  InlineKeyboardButton(text=" Click here", url="https://t.me/MikuXProBot?start=help")
+                  InlineKeyboardButton(text=" Click here", url="https://t.me/ShiinaMahiruRobot?start=help")
                   ]
                 ]
             ),

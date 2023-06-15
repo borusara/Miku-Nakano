@@ -15,7 +15,8 @@
 <img src="https://img.shields.io/badge/Telethon-1.24.0-yellow?style=for-the-badge&logo=appveyor" alt="Telethon Version">
 <img src="https://img.shields.io/badge/Pyrogram-1.4.1-red?style=for-the-badge&logo=appveyor" alt="Pyrogram Version">
 <a href="https://github.com/h0daka/Miku-Nakano"> <img src="https://img.shields.io/github/repo-size/h0daka/Miku-Nakano?color=red&logo=github&logoColor=green&style=for-the-badge" /></a>
-
+<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/borusara/Miku-Nakano"> <img 
+src="https://img.shields.io/badge/Deploy%20To%20Heroku-red?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
 ##  ╒═══「 Status 」
 
 + [x] Maintained

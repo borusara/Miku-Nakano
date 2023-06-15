@@ -1,4 +1,4 @@
-![Miku](https://telegra.ph/file/bc219808c6d888fc72260.jpg)
+
 # 𝓜𝓲𝓴𝓾 𝓝𝓪𝓴𝓪𝓷𝓸
 <h3 align="center"> 
     A Modular Telegram Python Bot Running On Python3 With Mongo DB, Sqlalchemy, Redis Database.

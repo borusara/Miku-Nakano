@@ -82,7 +82,7 @@ buttons = [
     [
                         InlineKeyboardButton(
                              text="❤️ Summon Me",
-                             url="https://http://t.me/Michael_kibutsuji_probot?startgroup=true"),
+                             url="https://t.me/Michael_kibutsuji_probot?startgroup=true"),
                     ],
                    [                  
                        InlineKeyboardButton(
